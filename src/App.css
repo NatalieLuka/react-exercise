@@ -1,9 +1,0 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card {
-  padding: 12px;
-  border: 1px solid black;
-}

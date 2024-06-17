@@ -4,10 +4,17 @@ import { Card } from "./components/Card";
 function App() {
   return (
     <>
-      <h1>First React Exercise</h1>
+      <header>
+        <h2>First React Exercise</h2>
+      </header>
 
-      <Card name="Jane Doe" job="Architect"></Card>
-      <Card name="John Doe" job="Engineer"></Card>
+      <Card
+        name="Jane Doe"
+        job="Architect"
+        imgurl="public/images/JaneDoe.png"
+      />
+
+      <Card name="John Doe" job="Engineer" imgurl="public/images/johnDoe.png" />
     </>
   );
 }
